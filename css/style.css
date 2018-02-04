@@ -1,0 +1,45 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    font-size: 11px;
+    color: #2d2a2b;
+}
+
+img {
+    border: none;
+}
+
+html {
+    height: 100%;
+}
+
+
+body {
+    /*height: auto !important;*/
+    height: 1000px;
+    position: relative;
+    background-color: #ababab;
+    font-size: 13px;
+    color: black;
+    top: 40px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+}
