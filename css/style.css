@@ -43,3 +43,15 @@ body {
     max-width: 960px;
     margin: auto;
 }
+
+.block-sprite {
+    width: 200px;
+    height: 252px;
+    background-image: url("../images/arrows-2x.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.block-sprite:hover {
+    background-position: right;
+}
